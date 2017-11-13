@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:LocalizationToolkitObjectMapper.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/LocalizationToolkitObjectMapperSample-iOS/LocalizationToolkitObjectMapperSample-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/LocalizationToolkitObjectMapperSample-watchOS/LocalizationToolkitObjectMapperSample-watchOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/LocalizationToolkitObjectMapperSample-tvOS/LocalizationToolkitObjectMapperSample-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/LocalizationToolkitObjectMapperSample-OSX/LocalizationToolkitObjectMapperSample-OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
