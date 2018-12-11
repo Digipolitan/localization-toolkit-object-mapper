@@ -129,7 +129,6 @@
 				A30D648A1E0D7B2A00A3CE45 /* Resources */,
 				A30D64A11E0D7BA200A3CE45 /* Embed Frameworks */,
 				6F91670C5C8679B959E65CFB /* [CP] Embed Pods Frameworks */,
-				7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,12 +146,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Digipolitan;
 				TargetAttributes = {
 					A30D648B1E0D7B2A00A3CE45 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -194,7 +194,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LocalizationToolkit-tvOS/LocalizationToolkit.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-tvOS/ObjectMapper.framework",
 			);
@@ -205,22 +205,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS/Pods-Samples-LocalizationToolkitObjectMapperSample-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9C3C7D7C59B1AB10EA77253 /* [CP] Check Pods Manifest.lock */ = {
@@ -269,6 +254,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -276,6 +262,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -327,6 +314,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -334,6 +322,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -376,6 +365,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.LocalizationToolkitObjectMapperSample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -391,6 +381,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.LocalizationToolkitObjectMapperSample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;

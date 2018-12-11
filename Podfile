@@ -5,7 +5,7 @@ abstract_target 'Frameworks' do
 	use_frameworks!
 
 	pod 'LocalizationToolkit', '~> 1.1'
-	pod 'ObjectMapper', '~> 3.0'
+	pod 'ObjectMapper', '~> 3.4'
 
 	target 'LocalizationToolkitObjectMapper-iOS' do
 		platform :ios, '8.0'
@@ -29,7 +29,7 @@ abstract_target 'Tests' do
 	use_frameworks!
 
 	pod 'LocalizationToolkit', '~> 1.1'
-	pod 'ObjectMapper', '~> 3.0'
+	pod 'ObjectMapper', '~> 3.4'
 
 	target 'LocalizationToolkitObjectMapperTests-iOS' do
 		platform :ios, '8.0'
@@ -49,8 +49,8 @@ abstract_target 'Samples' do
 	use_frameworks!
 
 	pod 'LocalizationToolkit', '~> 1.1'
-	pod 'ObjectMapper', '~> 3.0'
-	
+	pod 'ObjectMapper', '~> 3.4'
+
 	target 'LocalizationToolkitObjectMapperSample-iOS' do
 		project 'Samples/LocalizationToolkitObjectMapperSample-iOS/LocalizationToolkitObjectMapperSample-iOS'
 		platform :ios, '8.0'
