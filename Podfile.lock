@@ -1,10 +1,10 @@
 PODS:
-  - LocalizationToolkit (1.1.1)
+  - LocalizationToolkit (1.1.2)
   - ObjectMapper (3.4.1)
 
 DEPENDENCIES:
   - LocalizationToolkit (~> 1.1)
-  - ObjectMapper (~> 3.0)
+  - ObjectMapper (~> 3.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -12,9 +12,9 @@ SPEC REPOS:
     - ObjectMapper
 
 SPEC CHECKSUMS:
-  LocalizationToolkit: ea6c1fedd1493c16fa7b8e6dabcd1c4674855c6f
+  LocalizationToolkit: d13e1022c9bbdd9c5a8ee38ff82044b7be755376
   ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
 
-PODFILE CHECKSUM: 8c6b6ea7b955c74cedc8a4b4361bc5825bf79af8
+PODFILE CHECKSUM: d8ba2374e44a2a700201714d5134b20b85389feb
 
 COCOAPODS: 1.6.0.beta.2
