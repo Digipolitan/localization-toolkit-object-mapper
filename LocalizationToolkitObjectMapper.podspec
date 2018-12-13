@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "LocalizationToolkitObjectMapper"
-s.version = "1.0.0"
+s.version = "1.0.1"
 s.summary = "Make MultilingualString compatible with ObjectMapper"
 s.homepage = "https://github.com/Digipolitan/localization-toolkit-object-mapper"
 s.authors = "Digipolitan"

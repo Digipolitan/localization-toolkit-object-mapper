@@ -249,7 +249,6 @@
 				A30D64511E0D759D00A3CE45 /* Embed Watch Content */,
 				A30D645C1E0D76AC00A3CE45 /* Embed Frameworks */,
 				140E695A0845EF0F82FE4B2D /* [CP] Embed Pods Frameworks */,
-				2D38DBC2F858A46682ACA41D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,7 +287,6 @@
 				A30D64391E0D759D00A3CE45 /* Frameworks */,
 				A30D643A1E0D759D00A3CE45 /* Resources */,
 				D00B153FF6EA33827EDD269E /* [CP] Embed Pods Frameworks */,
-				9970C785E4B59507C7C47023 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,12 +304,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Digipolitan;
 				TargetAttributes = {
 					A30D641A1E0D759D00A3CE45 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					A30D642C1E0D759D00A3CE45 = {
@@ -322,6 +321,7 @@
 					A30D643B1E0D759D00A3CE45 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -383,7 +383,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LocalizationToolkit-iOS/LocalizationToolkit.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
 			);
@@ -394,37 +394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D38DBC2F858A46682ACA41D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9970C785E4B59507C7C47023 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D00B153FF6EA33827EDD269E /* [CP] Embed Pods Frameworks */ = {
@@ -433,7 +403,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LocalizationToolkit-watchOS/LocalizationToolkit.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-watchOS/ObjectMapper.framework",
 			);
@@ -444,7 +414,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension/Pods-Samples-watchOS-LocalizationToolkitObjectMapperSample-watchOS WatchKit Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2538F3EA116A9FD50336DEF /* [CP] Check Pods Manifest.lock */ = {
@@ -552,6 +522,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -559,6 +530,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -610,6 +582,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -617,6 +590,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -660,6 +634,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -677,6 +652,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -727,6 +703,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.LocalizationToolkitObjectMapperSample-watchOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -741,6 +718,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.LocalizationToolkitObjectMapperSample-watchOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
